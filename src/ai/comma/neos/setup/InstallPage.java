@@ -118,7 +118,7 @@ public class InstallPage extends SetupPage {
             urlEntry = (EditText)mRootView.findViewById(R.id.editText);
             urlEntry.setEnabled(true);
             urlEntry.setText("");
-            urlEntry.append("https://");
+            urlEntry.append("https://openpilot.comma.ai");
         }
 
         @Override
